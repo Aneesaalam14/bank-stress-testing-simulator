@@ -1,0 +1,6 @@
+# Large generated model artifact (~145 MB) - exceeds GitHub's 100 MB file limit.
+# Regenerate locally by running modeling/02_random_forest.ipynb
+models/random_forest_model.pkl
+
+# Local backup bundles
+*.bundle
