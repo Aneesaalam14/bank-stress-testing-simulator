@@ -43,6 +43,11 @@ bank-stress-testing-simulator-main/
 ```
 
 
+## Models
+
+`models/` holds the trained model artifacts. These are generated locally by the `modeling/` notebooks and are not version-controlled: `random_forest_model.pkl` is roughly 145 MB, which exceeds GitHub's 100 MB file-size limit, so it is gitignored (see `.gitignore`). To regenerate it, run `modeling/02_random_forest.ipynb`, which trains the random forest pipeline and saves it to `models/random_forest_model.pkl` with `joblib.dump`.
+
+
 ## Data description
 
 | File | Grain | Rows (cleaned) | Key columns | Notes |

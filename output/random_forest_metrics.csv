@@ -1,0 +1,8 @@
+Metric,Score
+Accuracy,0.83825
+Balanced Accuracy,0.8215009036463137
+Precision (macro),0.8238423008751522
+Recall (macro),0.8215009036463136
+F1 (macro),0.8226198210529599
+Recall (Critical),0.7934621099554234
+ROC-AUC (macro OVR),0.956630705816003
